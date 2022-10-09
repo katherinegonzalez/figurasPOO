@@ -1,9 +1,13 @@
-# ------------------------------------------------------
-# Definición de las clases Figura, Cuadrado, Triángulo,
-# Rectángulo y Circunferencia
-# Katherine Xiomar González Santacruz - Lorena Mora
-# v1 - 07.10.2021
-# ------------------------------------------------------
+# ----------------------------------------------------------------------------------------
+# MODULO: Funciones Figuras
+# ----------------------------------------------------------------------------------------
+# Descripción: En este módulo se encuentran la definición de las clases Figura, Cuadrado,
+# Triángulo y Circunferencia.
+# ----------------------------------------------------------------------------------------
+# Autores: Lorena Patricia Mora Hernandez y Katherine Xiomar González Santacruz
+# Version: 1.0
+# [08.10.2022]
+# ----------------------------------------------------------------------------------------
 
 # ------------------------------------------------------
 # Definición una clase Figura - Tiene como
@@ -33,7 +37,7 @@ class Figura:
         return 'El área de la figura es: ' + str(self.area)
 
 # ------------------------------------------------------
-# Definicion una clase Cuadrado - Tiene como
+# Definición una clase Cuadrado - Tiene como
 # atributos area y lado
 # ------------------------------------------------------
 class Cuadrado(Figura):
